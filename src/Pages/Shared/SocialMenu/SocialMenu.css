@@ -1,0 +1,15 @@
+
+.social-sticky{
+    position: fixed;
+    /* position: sticky; */
+    width: 35px;
+    height: 100px;
+    top: 60%;
+    left: 0px;
+    background-color: rgb(204, 197, 197);
+    padding: 12px 20px;
+    z-index: 1;
+}
+.social-menu{
+    position: absolute;
+}

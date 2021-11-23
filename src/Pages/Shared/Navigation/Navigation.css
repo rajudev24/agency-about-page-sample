@@ -1,0 +1,63 @@
+.navigation{
+    /* height: 50px !important; */
+}
+.brand-logo{
+    margin-left: 30px;
+}
+.navbar{
+    padding: 0px !important;
+}
+.menu-list{
+    position: relative;
+    
+    /* margin-right: 30px; */
+}
+.menu-list .shop-cart{
+    margin-right: 90px;
+}
+.menu-list a{
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.shop-btn{
+    background-color: #245AE5;
+    color: white;
+    border: 0px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    padding: 14px 20px;
+    /* font-size: 20px; */
+    
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px){
+    .brand-logo{
+        margin-left: 10px;
+    }
+    .shop-btn{
+        position: relative;
+    }
+    .menu-list .shop-cart{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .brand-logo{
+        margin-left: 10px;
+    }
+    .shop-btn{
+        position: relative;
+    }
+    .menu-list .shop-cart{
+        margin-right: 0px;
+    }
+}
+

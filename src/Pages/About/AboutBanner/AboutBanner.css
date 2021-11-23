@@ -1,0 +1,74 @@
+.about-banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.ibb.co/Qb2Z5rg/pexels-pixabay-316093-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.about-banner::before{
+    content: "";
+    position: absolute;
+    top: 0px; 
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.banner-details{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+} 
+.about-title{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.about-title h1{
+    font-size: 70px;
+}
+.about-text{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .banner-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-title {
+        width: 90%;
+    }
+    .about-text{
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .banner-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-title {
+        width: 90%;
+    }
+    .about-text{
+        width: 90%;
+        margin-top: 30px;
+    }
+}

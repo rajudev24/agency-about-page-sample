@@ -1,0 +1,29 @@
+.investor-section{
+    display: flex;
+    width: 60%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 60px;
+    
+}
+
+.investor-one{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .investor-section{
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 1024px){
+    .investor-section{
+        
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+}
